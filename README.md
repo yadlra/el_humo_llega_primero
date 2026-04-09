@@ -1,6 +1,8 @@
 # El Humo Llega Primero
 
 *Una alarma de calidad del aire de hardware abierto para cocinas tradicionales de leña*
+
+
 *An open hardware air quality alarm for traditional wood-fire kitchens*
 
 ---
@@ -43,7 +45,7 @@ El sensor SEN55 lee los niveles de partículas PM2.5 cada 5 segundos. El ESP32-C
 | Peligro | 75-149 µg/m³ | Pulso rojo-naranja | Tres tonos agudos |
 | Crítico | ≥ 150 µg/m³ | Pulso rojo completo | Alarma urgente repetida |
 
-
+ ** Estas talvez cambien una vez se considere si es lo mas adecuado 
 
 ---
 
@@ -69,7 +71,7 @@ mpremote connect /dev/ttyUSB0 cp main.py :main.py
 
 *El humo llega primero. Esto es para las cocinas donde siempre ha sido así.*
 
----
+
 ---
 
 ## English
@@ -95,7 +97,8 @@ The prototype uses commercially available open hardware components rather than a
 | LED | WS2812B | RGB alarm light |
 | Buzzer | MLT-8530 piezo | Alarm sound |
 | Power | LiPo battery + TP4056 | No mains power needed |
-| Enclosure | Hand-formed clay vessel | Vernacular housing, in progress |
+| Enclosure | Hand formed clay vessel | Vernacular housing, in progress |
+
 
 ---
 
@@ -110,6 +113,8 @@ The SEN55 sensor reads PM2.5 particulate levels every 5 seconds. The ESP32-C3 co
 | Danger | 75-149 µg/m³ | Red-orange pulse | Three sharp tones |
 | Critical | ≥ 150 µg/m³ | Full red pulse | Urgent repeating alarm |
 
+
+** This may change after first test ...
 
 ---
 
@@ -133,4 +138,4 @@ mpremote connect /dev/ttyUSB0 cp main.py :main.py
 - Clay vessel: June 2026, hand-formed with family
 
 
-*El humo llega primero. The smoke arrives first. This is for the kitchens where it always has.*
+*El humo llega primero <> The smoke arrives first. This is for the kitchens where it always has.*
