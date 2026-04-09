@@ -1,6 +1,7 @@
 # El humo llega primero
 
 ![El humo llega primero](media/mama-humo.jpeg)
+Mi ama cocinando, el humo es bastante visible 
 
 
 *Una alarma de calidad del aire de hardware abierto para cocinas tradicionales de leña*
@@ -21,6 +22,7 @@ Este proyecto es parte de un trabajo más amplio alrededor del diseño tecnológ
 **Este proyecto está en proceso.** Los componentes están siendo adquiridos y las pruebas iniciales se llevarán a cabo en la cocina de mi familia en la comunidad de Quebrantadero en el municipio de Axochiapan, Morelos en junio de 2026, continuando durante la temporada de lluvias cuando los niveles de humedad aumentan e introducen variables adicionales a las que el diseño necesitará responder. La vasija de barro que alojará la electrónica se hará a mano junto con mi mamá y mis tías y primas, cuyo conocimiento de los materiales y del espacio es tan parte del diseño como cualquier otra cosa.
 
 ![La cocina](media/cocina-amplia.jpeg)
+La cocina 
 
 ---
 
@@ -74,7 +76,7 @@ mpremote connect /dev/ttyUSB0 cp main.py :main.py
 - Vasija de barro: junio 2026, hecha a mano con la familia
 
 ![Cocinando](media/mama-cocinando.jpeg)
-
+Mi ama cocinando, el humo no es visible aqui
 
 
 *El humo llega primero. Esto es para las cocinas donde siempre ha sido así.*
@@ -92,7 +94,8 @@ This project sits within a longer body of work around community led technology d
 
 **This project is a work in progress.** Components are being sourced and initial testing will take place in my family's kitchen in the community of Quebrantadero, in the municipoality of Axochipan, Morelos in June 2026, continuing through the summer rainy season when rising humidity introduces additional variables the design will need to respond to. The clay vessel that will house the electronics will be hand-formed on site together with my mother and aunts and cousins, whose knowledge of the materials and the space is as much a part of the design as anything else.
 
-![La cocina](media/cocina-amplia.jpeg)
+![The kitchen](media/cocina-amplia.jpeg)
+Image of the kitchen
 
 
 ---
@@ -148,6 +151,8 @@ mpremote connect /dev/ttyUSB0 cp main.py :main.py
 - Field testing: June 2026, Morelos, México
 - Clay vessel: June 2026, hand-formed with family
 
-![Cocinando](media/mama-cocinando.jpeg)
+![Coooking](media/mama-cocinando.jpeg)
+
+My mother cooking, the smoke isnt so visible here
 
 *El humo llega primero <> The smoke arrives first. This is for the kitchens where it always has.*
