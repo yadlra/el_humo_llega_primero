@@ -20,7 +20,7 @@ Este proyecto es parte de un trabajo más amplio alrededor del diseño tecnológ
 
 **Este proyecto está en proceso.** Los componentes están siendo adquiridos y las pruebas iniciales se llevarán a cabo en la cocina de mi familia en la comunidad de Quebrantadero en el municipio de Axochiapan, Morelos en junio de 2026, continuando durante la temporada de lluvias cuando los niveles de humedad aumentan e introducen variables adicionales a las que el diseño necesitará responder. La vasija de barro que alojará la electrónica se hará a mano junto con mi mamá y mis tías y primas, cuyo conocimiento de los materiales y del espacio es tan parte del diseño como cualquier otra cosa.
 
-![La cocina](media/mama-cocinando.jpeg)
+![La cocina](media/cocina-amplia.jpeg)
 
 ---
 
@@ -92,7 +92,7 @@ This project sits within a longer body of work around community led technology d
 
 **This project is a work in progress.** Components are being sourced and initial testing will take place in my family's kitchen in the community of Quebrantadero, in the municipoality of Axochipan, Morelos in June 2026, continuing through the summer rainy season when rising humidity introduces additional variables the design will need to respond to. The clay vessel that will house the electronics will be hand-formed on site together with my mother and aunts and cousins, whose knowledge of the materials and the space is as much a part of the design as anything else.
 
-![La cocina](media/mama-cocinando.jpeg)
+![La cocina](media/cocina-amplia.jpeg)
 
 
 ---
