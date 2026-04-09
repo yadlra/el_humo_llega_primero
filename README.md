@@ -1,4 +1,7 @@
-# El Humo Llega Primero
+# El humo llega primero
+
+![El humo llega primero](media/mama-humo.jpeg)
+
 
 *Una alarma de calidad del aire de hardware abierto para cocinas tradicionales de leña*
 
@@ -16,6 +19,8 @@ El Humo Llega Primero nació de una pregunta simple: qué significaría para una
 Este proyecto es parte de un trabajo más amplio alrededor del diseño tecnológico comunitario en comunidaded del sur de Morelos, donde años de investigación y práctica trabajando junto a mi comunidad y comunidades vecinas sobre preguntas de tecnología, territorio e infraestructura han dado forma a cada decisión aquí. Se apoya en la lógica de la milpa, un sistema de policultivo donde distintas plantas crecen juntas en relación, cada una sosteniendo las condiciones que las otras necesitan, que es también como se está abordando cada decisión alrededor de este dispositivo y su diseño.
 
 **Este proyecto está en proceso.** Los componentes están siendo adquiridos y las pruebas iniciales se llevarán a cabo en la cocina de mi familia en la comunidad de Quebrantadero en el municipio de Axochiapan, Morelos en junio de 2026, continuando durante la temporada de lluvias cuando los niveles de humedad aumentan e introducen variables adicionales a las que el diseño necesitará responder. La vasija de barro que alojará la electrónica se hará a mano junto con mi mamá y mis tías y primas, cuyo conocimiento de los materiales y del espacio es tan parte del diseño como cualquier otra cosa.
+
+![La cocina](media/mama-cocinando.jpeg)
 
 ---
 
@@ -68,6 +73,9 @@ mpremote connect /dev/ttyUSB0 cp main.py :main.py
 - Pruebas en campo: junio 2026, Morelos, México
 - Vasija de barro: junio 2026, hecha a mano con la familia
 
+![Cocinando](media/mama-cocinando.jpeg)
+
+
 
 *El humo llega primero. Esto es para las cocinas donde siempre ha sido así.*
 
@@ -83,6 +91,9 @@ El Humo Llega Primero started from a simple question about what it would mean fo
 This project sits within a longer body of work around community led technology design in Morelos, where years of research and practice working alongside my community and neighbouring communities on questions of technology, land and infrastructure have shaped every decision here. It draws on the logic of the milpa, a polyculture system where different plants grow together in relationship, each supporting the conditions the others need, which is also how every decision around this device and its design is being approached.
 
 **This project is a work in progress.** Components are being sourced and initial testing will take place in my family's kitchen in the community of Quebrantadero, in the municipoality of Axochipan, Morelos in June 2026, continuing through the summer rainy season when rising humidity introduces additional variables the design will need to respond to. The clay vessel that will house the electronics will be hand-formed on site together with my mother and aunts and cousins, whose knowledge of the materials and the space is as much a part of the design as anything else.
+
+![La cocina](media/mama-cocinando.jpeg)
+
 
 ---
 
@@ -137,5 +148,6 @@ mpremote connect /dev/ttyUSB0 cp main.py :main.py
 - Field testing: June 2026, Morelos, México
 - Clay vessel: June 2026, hand-formed with family
 
+![Cocinando](media/mama-cocinando.jpeg)
 
 *El humo llega primero <> The smoke arrives first. This is for the kitchens where it always has.*
