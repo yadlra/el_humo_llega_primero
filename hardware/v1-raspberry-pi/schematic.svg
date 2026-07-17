@@ -1,0 +1,58 @@
+<svg viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="900" height="520" fill="#ffffff"/>
+
+  <!-- Title -->
+  <text x="450" y="36" text-anchor="middle" font-size="20" fill="#222">El humo llega primero</text>
+  <text x="450" y="58" text-anchor="middle" font-size="13" fill="#666">v1 bench rig schematic: Raspberry Pi + SEN55, mains powered CSV logger</text>
+
+  <!-- ============ Raspberry Pi ============ -->
+  <rect x="80" y="140" width="260" height="270" fill="#f8f8f5" stroke="#333" stroke-width="1.5"/>
+  <text x="210" y="168" text-anchor="middle" font-size="14" fill="#222">Raspberry Pi</text>
+  <text x="210" y="186" text-anchor="middle" font-size="10" fill="#666">any model with the 40 pin header</text>
+  <!-- right side pin labels -->
+  <text x="334" y="224" text-anchor="end" font-size="11" fill="#222">pin 2 (5 V)</text>
+  <text x="334" y="264" text-anchor="end" font-size="11" fill="#222">pin 3 (GPIO2 SDA1)</text>
+  <text x="334" y="304" text-anchor="end" font-size="11" fill="#222">pin 5 (GPIO3 SCL1)</text>
+  <text x="334" y="344" text-anchor="end" font-size="11" fill="#222">pin 6 (GND)</text>
+  <text x="210" y="384" text-anchor="middle" font-size="10" fill="#666">1.8 k pull ups on SDA and SCL</text>
+  <text x="210" y="398" text-anchor="middle" font-size="10" fill="#666">are onboard the Pi</text>
+
+  <!-- ============ SEN55 ============ -->
+  <rect x="560" y="140" width="260" height="300" fill="#f8f8f5" stroke="#333" stroke-width="1.5"/>
+  <text x="690" y="168" text-anchor="middle" font-size="14" fill="#222">U2 Sensirion SEN55</text>
+  <text x="690" y="186" text-anchor="middle" font-size="10" fill="#666">PM, VOC, NOx, RH, T. I2C addr 0x69</text>
+  <!-- left side pin labels -->
+  <text x="566" y="224" font-size="11" fill="#222">1 VDD (5 V)</text>
+  <text x="566" y="264" font-size="11" fill="#222">3 SDA</text>
+  <text x="566" y="304" font-size="11" fill="#222">4 SCL</text>
+  <text x="566" y="344" font-size="11" fill="#222">2 GND</text>
+  <text x="566" y="384" font-size="11" fill="#222">5 SEL</text>
+  <text x="566" y="424" font-size="11" fill="#222">6 GND</text>
+  <text x="690" y="470" text-anchor="middle" font-size="10" fill="#666">connector: JST ZHR-06,</text>
+  <text x="690" y="484" text-anchor="middle" font-size="10" fill="#666">pin numbers per Sensirion datasheet</text>
+
+  <!-- ============ Wires ============ -->
+  <!-- 5V -->
+  <line x1="340" y1="220" x2="560" y2="220" stroke="#111" stroke-width="1.5"/>
+  <text x="450" y="212" text-anchor="middle" font-size="10" fill="#a33">5 V</text>
+  <!-- SDA -->
+  <line x1="340" y1="260" x2="560" y2="260" stroke="#111" stroke-width="1.5"/>
+  <text x="450" y="252" text-anchor="middle" font-size="10" fill="#666">SDA</text>
+  <!-- SCL -->
+  <line x1="340" y1="300" x2="560" y2="300" stroke="#111" stroke-width="1.5"/>
+  <text x="450" y="292" text-anchor="middle" font-size="10" fill="#666">SCL</text>
+  <!-- GND -->
+  <line x1="340" y1="340" x2="560" y2="340" stroke="#111" stroke-width="1.5"/>
+  <text x="450" y="332" text-anchor="middle" font-size="10" fill="#666">GND</text>
+
+  <!-- SEL tied to GND -->
+  <line x1="560" y1="380" x2="490" y2="380" stroke="#111" stroke-width="1.5"/>
+  <line x1="490" y1="380" x2="490" y2="340" stroke="#111" stroke-width="1.5"/>
+  <circle cx="490" cy="340" r="3" fill="#111"/>
+  <text x="498" y="368" font-size="10" fill="#666">SEL to GND selects I2C</text>
+
+  <!-- second GND tied in -->
+  <line x1="560" y1="420" x2="460" y2="420" stroke="#111" stroke-width="1.5"/>
+  <line x1="460" y1="420" x2="460" y2="340" stroke="#111" stroke-width="1.5"/>
+  <circle cx="460" cy="340" r="3" fill="#111"/>
+</svg>

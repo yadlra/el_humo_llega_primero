@@ -1,0 +1,6 @@
+Ref,Component,Part,Manufacturer,Manufacturer part no,Qty,Suggested supplier (UK),Approx unit cost GBP,Notes
+U1,Single board computer,Raspberry Pi (any model with the 40 pin header),Raspberry Pi Ltd,,1,The Pi Hut / Pimoroni,35.00,Runs the Python logger with the official Sensirion driver. Onboard 1.8 kilohm pull ups on SDA and SCL mean no external pull ups are needed.
+U2,Air quality sensor,SEN55,Sensirion,SEN55-SDN-T,1,Mouser / Digi-Key / RS,25.00,PM1.0 PM2.5 PM4.0 PM10 VOC NOx humidity temperature. 5 V supply from the Pi header. I2C address 0x69.
+,Cable,JST ZHR-06 6 pin cable with free wire ends (or ZHR-06 to female DuPont),generic,,1,eBay / AliExpress / Adafruit,2.00,Mates with the SEN55 connector. The Adafruit SEN5x breakout with its cable also works here and is what v2 uses anyway.
+,Power supply,Official USB power supply for the Pi model in use,Raspberry Pi Ltd,,1,The Pi Hut,8.00,The SEN55 fan draws from the Pi 5 V rail so use a proper supply rather than a marginal one.
+,Storage,microSD card 16 GB or more,generic,,1,any,6.00,Raspberry Pi OS plus the CSV logs.
